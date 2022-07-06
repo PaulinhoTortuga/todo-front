@@ -1,0 +1,38 @@
+h1
+    font-size: 3em
+.container  
+    width: 30rem
+    margin: 0 auto
+.input
+    width: 100%
+    padding: 16px
+ul
+    width: 100%
+    margin-top: 30px  
+    list-style: none
+    padding: 0
+    li
+        display: flex
+        flex-direction: row
+        align-items: center
+        transition: all 0.5s
+        &:hover
+            button
+                visibility: visible 
+        p
+            margin: 0
+            margin-left: 20px
+            display: inline-block
+        button
+            margin-left: auto
+            visibility: hidden
+        input 
+            margin-left: 20px
+    .complete
+        text-decoration: line-through
+        transition: all 0.5s
+.footer
+    visibility: hidden
+    display: flex
+    flex-direction: row
+    justify-content: space-between

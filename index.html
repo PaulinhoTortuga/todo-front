@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>ToDo</title>
+</head>
+<body>
+    <div class="container">
+        <h1>todos</h1>
+        <input type="text" placeholder="What needs to be done?" class="input" id="input">
+        <ul class="todos" id="todos"></ul>
+        <div class="footer" id="footer">
+            <span class="items-left"><span id="count"></span> items left</span>
+            <div class="controls" id="controls">
+                <button id="all">All</button>
+                <button id="active">Active</button>
+                <button id="complete">Completed</button>
+            </div>
+            <button id="finish">Finish all</button>
+            <button id="clear">Clear completed</button>
+        </div>
+    </div>
+</body>
+<script src="/class-script.js"></script>
+</html>

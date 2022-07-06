@@ -1,0 +1,75 @@
+h1 {
+  font-size: 3em;
+}
+
+.container {
+  width: 30rem;
+  margin: 0 auto;
+}
+
+.input {
+  width: 100%;
+  padding: 16px;
+}
+
+ul {
+  width: 100%;
+  margin-top: 30px;
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+ul li:hover button {
+  visibility: visible;
+}
+
+ul li p {
+  margin: 0;
+  margin-left: 20px;
+  display: inline-block;
+}
+
+ul li button {
+  margin-left: auto;
+  visibility: hidden;
+}
+
+ul li input {
+  margin-left: 20px;
+}
+
+ul .complete {
+  text-decoration: line-through;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.footer {
+  visibility: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+/*# sourceMappingURL=style.css.map */
